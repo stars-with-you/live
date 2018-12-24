@@ -496,10 +496,11 @@
             -moz-transition: all 0.25s ease-in-out;
             -o-transition: all 0.25s ease-in-out;
         }
+        #top{ width:92%;margin:0 auto; position:absolute; top:0; height:100px;padding:0 4%; overflow:hidden; z-index:100; background-color:#ffffff; }
     </style>
 </head>
 
-<body style="">
+<body style="background-color:#2a3156;">
 <div id="popupcontent" class="c_alert_dialog">
     <div class="c_alert_mask" onclick="closeReg();"></div>
     <div class="c_alert_width">
@@ -533,7 +534,7 @@
     </div>
     <!-- //top_login -->
 </div>
-<div style="width:480px; border:none;position: absolute;left: 50%;top:100px; margin-left: -250px;height:99%;">
+<div style="width:480px; border:none;position: absolute;left: 50%;top:100px; margin-left: -250px;height:99%; background-color:#ffffff;">
     <div class="zhibo">
         <div class="zhibo-content-img" style="height:320px; width:100%;">
             <div class="dzly">
@@ -672,7 +673,7 @@
                 <div id="divbq" class="bq">
 
                 </div>
-                <div id="divdet">
+                <div id="divdet" style="background-color:#ffffff;">
 
                 </div>
                 <div id="divnodata2" class="weui-loadmore weui-loadmore_line">
